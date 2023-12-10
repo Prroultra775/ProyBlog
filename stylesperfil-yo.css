@@ -1,0 +1,84 @@
+:root {     
+	--dark-cyan: hsl(185, 75%, 39%);
+	--very-dark-desaturated-blue: hsl(229, 23%, 23);
+	--dark-graysih-blue: hsl(227, 10% 46%);
+}
+
+h1 {
+	color: var(--very-dark-desaturated-blue);
+	margin: 0;
+	font-size: 35px;
+	margin-top: 25px;
+}
+
+h1 span {
+	color: #9d9ca3;
+	font-weight: 400;
+	margin-left: 5px;
+}
+
+h2 {
+	color: #9d9ca3;
+	font-weight: 400;
+	font-size: 20px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.cuerpo {
+	background: url(img/pf-bg-yo.jpg);
+	background-repeat: no-repeat;
+	padding: 50px;
+	font-family: 'Kumbh Sans', sans-serif;
+	display: flex;
+	justify-content: center;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+
+}
+/*
+h4 {
+	color: var(--dark-cyan);
+}*/
+
+.card {
+	border-radius: 20px;
+	background: white url(img/queso.jpg) repeat-x;
+    background-size: 400px;
+	background-size: repeat no-repeat;
+	margin: 100px;
+	overflow: hidden;
+	text-align: center;
+	padding-top: 80px;
+	max-width: 371px;
+	flex-shrink: 0;
+	flex-grow: 1;
+}
+
+.image {
+	border-radius: 50%;
+	border: 8px solid white;
+    width: 100px;
+}
+
+.social {
+	display: flex;
+	justify-content: space-evenly; 
+	/*border: 1px solid var(--dark-graysih-blue);*/
+	border-top: 1px solid #e8e8e8;
+	padding: 10px 0;
+}
+
+.social h3 {
+	font-size: 22px;
+}
+
+.social h3 small {
+	margin-top: 8px;
+	display: block;
+	color: #9d9ca3;
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
